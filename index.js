@@ -3,12 +3,11 @@ function shoppingList() {
       e.preventDefault();
 
     // capture value that is in input field
-  $("#shopping-list-entry").submit(e => {
-      e.preventDefault();
-     const item = $('.shopping-list-entry').val();
-    });
+
+     const item = $('#shopping-list-entry').val();
+    
     // insert that value into the <li> element that you can find in the html page that is currently creating the list items
-    $('li').val()
+    
     // append that string to the <ul> item
     $(".shopping-list").append(
     `<li>
